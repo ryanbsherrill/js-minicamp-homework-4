@@ -63,9 +63,7 @@ function addReverseString() {
 }
 
 function nFactorial(n) {
-	if (n <= 1) {
-		return 1;
-	}
+	if (n <= 1) return 1;
 	return n * nFactorial(n - 1);
 }
 
